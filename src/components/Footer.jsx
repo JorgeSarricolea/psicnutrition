@@ -4,6 +4,7 @@ import { site } from '../config/content';
 const footerLinks = [
   { id: 'inicio', label: 'Inicio' },
   { id: 'servicios', label: 'Servicios' },
+  { id: 'galeria', label: 'Galería' },
   { id: 'horarios', label: 'Horarios' },
   { id: 'contacto', label: 'Contacto' },
   { id: 'ubicacion', label: 'Ubicación' },

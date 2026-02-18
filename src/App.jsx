@@ -8,6 +8,7 @@ import { site } from './config/content';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Features from './components/Features';
+import Gallery from './components/Gallery';
 import Planning from './components/Planning';
 import Payments from './components/Payments';
 import Parking from './components/Parking';
@@ -24,6 +25,7 @@ const navLinks = [
   { id: 'servicios', label: 'Servicios' },
   { id: 'caracteristicas', label: 'Nosotros' },
   { id: 'horarios', label: 'Horarios' },
+  { id: 'galeria', label: 'Galería' },
   { id: 'opiniones', label: 'Opiniones' },
   { id: 'contacto', label: 'Contacto' },
 ];
@@ -137,6 +139,7 @@ export default function App() {
         <Hero />
         <Services />
         <Features />
+        <Gallery />
         <Planning />
         <Payments />
         <Parking />
