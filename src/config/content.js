@@ -128,7 +128,7 @@ export const galleryImages = [
 ];
 
 export const hero = {
-  backgroundImage: '/fachada.png',
+  backgroundImage: 'https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1920&q=85',
   subtitle: site.tagline,
   ctaPrimary: { text: 'Agendar cita', href: 'https://wa.me/529991605528' },
   ctaSecondary: { text: 'Conocer servicios', href: '#servicios' },
